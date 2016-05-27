@@ -1,0 +1,19 @@
+{
+    "require" : {
+        "php" : ">=5.5",
+        "ext-pdo_mysql": "*"
+    },
+    "autoload" : {
+        "psr-4": {
+            "BoardConfidence\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BoardConfidenceTest\\": "test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "~4.0"
+    }
+}
